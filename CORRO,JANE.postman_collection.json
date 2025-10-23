@@ -1,0 +1,145 @@
+{
+	"info": {
+		"_postman_id": "98bd11f4-183d-47a7-83d3-e14b53035977",
+		"name": "CORRO,JANE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "49340565",
+		"_collection_link": "https://janecorro69-2412221.postman.co/workspace/CORRO%2CJANE~a936978a-53e0-4089-b08b-7c3a53f965b3/collection/49340565-98bd11f4-183d-47a7-83d3-e14b53035977?action=share&source=collection_link&creator=49340565"
+	},
+	"item": [
+		{
+			"name": "Health Check",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "GET All Books",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get Books by ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://se2-back-end-midterm-1.onrender.com/api/books/:id",
+					"protocol": "https",
+					"host": [
+						"se2-back-end-midterm-1",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"books",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "68fa04cf518ce03781c43ce1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create New Book",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://se2-back-end-midterm.onrender.com",
+					"protocol": "https",
+					"host": [
+						"se2-back-end-midterm",
+						"onrender",
+						"com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Book",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"isbn\": \"9780000000031\",\r\n    \"title\": \"Try and Try Pretty\",\r\n    \"author\": \"Jane G.\", \r\n    \"copies\": 4\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://se2-back-end-midterm-1.onrender.com/api/book/:id",
+					"protocol": "https",
+					"host": [
+						"se2-back-end-midterm-1",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"book",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "68fa04cf518ce03781c43ce1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Book",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://se2-back-end-midterm-1.onrender.com/api/books/:id",
+					"protocol": "https",
+					"host": [
+						"se2-back-end-midterm-1",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"books",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "68fa04cf518ce03781c43ce1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET DEL Book",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
