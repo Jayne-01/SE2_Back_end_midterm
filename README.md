@@ -9,6 +9,7 @@ A RESTful API built with Node.js, Express, and MongoDB Atlas, designed to manage
 🌐 Base URL
 
 **Local Deployment:** http://localhost:3000/api
+
 **Deployed URL:** https://se2-back-end-midterm.onrender.com
 
 ## 🔗 List of Endpoints
