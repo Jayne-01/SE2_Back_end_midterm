@@ -10,7 +10,7 @@ A RESTful API built with Node.js, Express, and MongoDB Atlas, designed to manage
 
 **Local Deployment:** http://localhost:3000/api
 
-**Deployed URL:** https://se2-back-end-midterm-1.onrender.com
+**Deployed URL:** https://se2-back-end-midterm-3.onrender.com
 ## 🔗 List of Endpoints
 
 Books
